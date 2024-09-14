@@ -120,7 +120,7 @@ def main():
     sauvegarder_modele(clf, scaler)
     
     # Faire une prédiction pour un client spécifique
-    offre_predite = predire_offre('00-07-F3-D5', df, clf, scaler, X.columns)
+    offre_predite = predire_offre('00-B8-91-CC', df, clf, scaler, X.columns)
     print(f"L'offre prédite pour le client 00-07-F3-D5 est : {offre_predite}")
     
     # Exemple de visualisation, en passant les index des tests
